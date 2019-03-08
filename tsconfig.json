@@ -6,7 +6,8 @@
     "lib": ["dom", "esnext"],
     "strict": true,
     "noEmit": true,
-    "noUnusedLocals": false
+    "noUnusedLocals": false,
+    "esModuleInterop": true
   },
   "exclude": ["node_modules", "public", ".cache"]
 }
